@@ -1,0 +1,82 @@
+body {
+  font-family: "Vazir", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: #2575fc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px 15px 0 0;
+}
+
+header .profile-pic {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;
+  border: 5px solid #6a11cb;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section h2 {
+  color: #6a11cb;
+  border-bottom: 2px solid #6a11cb;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #2575fc;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.ltr-text {
+  direction: ltr; /* تنظیم جهت فقط برای متن داخل */
+  unicode-bidi: embed; /* تثبیت ترتیب کاراکترها */
+}
